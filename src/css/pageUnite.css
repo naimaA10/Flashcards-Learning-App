@@ -1,0 +1,44 @@
+body {
+	background-color: white;
+
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#unit {
+	display: inline-block;
+	text-decoration-color: black;
+	font-size: 20px;
+	text-align: center;
+	background: rgb(34,193,195);
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	box-shadow: 6px 6px 6px lightgrey;
+	border-radius: 10px 5px 10px 5px;
+	padding: 40px;
+	width: 300px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px;
+	margin: 50px;
+}
+
+#unit a:visited{
+	color: black;
+}
+
+#unit a:link{
+	color: black;
+}
+
+#newunit a:link, a:visited {
+	font-size: 18px;
+	color: #33cc33;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}

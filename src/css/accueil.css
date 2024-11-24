@@ -1,0 +1,70 @@
+footer{
+  position: fixed;
+  bottom: 3%;
+  right: 39%;
+  color: #424A3F;
+  font-style: italic;
+  font-size: 16px;
+}
+
+nav ul{
+  position: absolute;
+  right: 15px;
+}
+
+.niveau1, .niveau1 ul{
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 200px;
+}
+
+.niveau1 li{
+   background-color: lightgrey; 
+   border-radius: 6px;
+   margin-bottom:2px;
+}
+
+.niveau1 a{
+  display:block;
+  text-decoration: none;
+  color: black;
+  padding: 8px 0;
+  font-size:1.2em
+}
+
+.niveau1 ul{
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+
+.niveau1 li li {
+  max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: lightgrey;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+
+.niveau1 ul li a, .niveau1 li:hover li a {
+  font-size:1em
+}
+.niveau1 li:hover {
+   background: lightblue; 
+}
+.niveau1 li li:hover {
+   background: lightblue;
+}
+.niveau1  ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+.niveau1  li:hover li {
+  max-height: 15em;
+}

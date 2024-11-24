@@ -1,0 +1,108 @@
+body {
+	background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	margin: 40px 0 0;
+}
+
+.jeu{
+	position: absolute;
+	right: 35px;
+	padding: 15px 20px;
+	background: #68EE3A;
+	cursor: pointer;
+	color: black;
+	font-size: 20px;
+	border-radius: 15px;
+}
+
+.jeu:hover{
+	background: #BBF5A8;
+	color: black;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h3 {
+	color: black;
+	text-align: center;
+}
+
+#profil {
+	text-align: center;
+}
+
+#profil.container {
+	width: 200px;
+	height: 200px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+ul {
+	height: 500px;
+	width: 500px;
+	overflow-y: scroll;
+	scrollbar-width: thin;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.inline{ 
+	display: inline-block;
+	text-decoration-color: black;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto; 
+	background: linear-gradient(to right, #e6e6e6, #cccccc);
+	box-shadow: 6px 6px 6px lightgrey;
+	border-radius: 10px 5px 10px 5px;
+	padding: 40px;
+	width: 300px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px;
+	margin: 50px;
+
+}
+
+.inline a:link, a:visited{
+	color: black;
+}
+
+.inlines{ 
+	display: inline-block;
+	text-decoration-color: black;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto; 
+	background: linear-gradient(to right, #e6e6e6, #cccccc);
+	box-shadow: 6px 6px 6px lightgrey;
+	border-radius: 10px 5px 10px 5px;
+	padding: 40px;
+	width: 300px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px;
+	margin: 50px;
+
+}
+
+.inlines a:link, a:visited{
+	color: black;
+}
+
+#liens a:link, a:visited{
+	color: blue;
+	display: inline;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}

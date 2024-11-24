@@ -1,0 +1,60 @@
+body {
+	background-color: white;
+
+}
+h3 {
+	color: black;
+	text-align: center;
+	top: 10%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+form {
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+
+}
+
+label{
+	color: black;
+	font-size: 20px
+}
+
+input[type=text], input[type=password], input[type=email] {
+	font-size: 20px;
+	background: transparent;
+	border-width: 1px;
+	padding: 4px;
+	border-color: #d9d9d9;
+	border-radius: 5px;
+	opacity: 0.7;
+}
+
+
+
+input[type=submit] {
+	/*background-color: lightgreen;*/
+	background: linear-gradient(to right, #33cc33, #00ff00);
+	width: 100%;
+	color: white;
+	padding: 4px;
+	font-size: 18px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background: #80ff80;
+}
+
+a:link, a:visited{
+	color: #33cc33;
+}
+

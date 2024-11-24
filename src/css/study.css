@@ -1,0 +1,57 @@
+html{
+	margin: 30px;
+	padding: 20px;
+	text-align: center;
+	background: url(images/idee.png) no-repeat left;
+}
+
+h2{
+	font-weight: normal | bold ;
+	font-family: georgia, palatino, sans-serif;
+	text-shadow: 2px 3px 5px rgba(0,0,0,0.3); 
+    font-style : italic;
+}
+
+.button {
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+
+textarea{
+  border: none;
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+  border-radius: 25px;
+  outline: none;
+  resize: none;
+  padding:10px;
+}
+
+textarea:hover {
+  background-color: lightgreen;
+}
+
+.question{
+	font-family:arial, sans-serif;
+}
+
+form span{
+  font-style:italic;
+}
+

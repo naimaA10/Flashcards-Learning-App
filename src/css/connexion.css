@@ -1,0 +1,66 @@
+body {
+	background-color: white;
+
+
+}
+h3 {
+	color: black;
+	text-align: center;
+	top: 10%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+form {
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+
+}
+
+label{
+	color: black;
+	font-size: 20px
+}
+
+input[type=text], input[type=password] {
+	font-size: 20px;
+	background: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+}
+
+input[type=submit] {
+	/*background-color: lightgreen;*/
+	background: linear-gradient(to right, #00ff00, lightgreen);
+	width: 100%;
+	color: black;
+	padding: 4px;
+	font-size: 18px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background: #80ff80;
+}
+
+a:link{
+	color: blue;
+}
+
+a:visited{
+	color: purple;
+}
+
+
+
+	

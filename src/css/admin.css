@@ -1,0 +1,38 @@
+body{
+	background: white;
+}
+
+h3 {
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+table {
+	position: relative;
+	left: 20%;
+	z-index: 2;
+	width: 60%;
+	text-align: center;
+	box-shadow: 0 12px 5px rgba(32,32,32,0.3);
+	border-collapse: collapse;
+	overflow: hidden;
+	border-radius: 12px 12px 0 0;
+}
+
+th{
+	background: #17c51f;
+	padding: 5px 12px;
+	color: #fafafa;
+}
+
+td {
+	padding: 5px 12px;
+	background: #b3e6b5;
+}
+
+a:link{
+	color: red;
+}
+

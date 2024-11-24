@@ -1,0 +1,28 @@
+html{
+ background-color: #B4FCD3; 
+}
+
+h1,h2{
+  font-family: georgia, palatino, sans-serif;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.3); 
+	text-align: center;
+	margin: 50px;
+	padding: 50px;
+}
+
+input[type=submit]{
+  float: right;
+  background-color:black;
+  color:white;
+  font-size: 15px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  text-align: center;
+}
+
+input[type="submit"]:hover{
+  background-color:#CFF5DF;
+  color:grey;
+}
